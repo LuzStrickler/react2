@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import imagen from './assets/onedir.jpg'
 import './App.css'
 
 function App() {
@@ -8,9 +7,10 @@ function App() {
 
   return (
     <>
-      <div>
-        <h1>¡Hola, mundo!</h1>
-      </div>
+    <div>
+      <h2>mi banda favorita es:</h2>
+      <img src={imagen} alt="Descripción de la imagen" />
+    </div>
     </>
   )
 }
